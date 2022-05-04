@@ -68,21 +68,3 @@ function showDivs(n) {
     function myFunction8() {
       location.replace("https://www.w3schools.com/c/index.php");
     }
-
-    function validateform1(){  
-      var identity=document.myform.identity.value;
-      if (identity==null || identity==""){  
-        alert("identity can't be blank");  
-        return false;  
-      }
-      if (identity != student || identity != parent){
-        alert("Please enter a parent or student")
-      return false}
-    }
-
-    text = prompt ("Please enter what your identity is, student or parent")
-
-    if (text == "student"){window.location.href="https://xuhongyou.github.io/5.3/Course.html";
-    }
-    if (text == "parent"){window.location.href="https://xuhongyou.github.io/5.3/Home.html";}
-window.location.href = "end script3";
