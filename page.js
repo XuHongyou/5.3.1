@@ -85,3 +85,4 @@ function showDivs(n) {
     if (text == "student"){window.location.href="https://xuhongyou.github.io/5.3/Course.html";
     }
     if (text == "parent"){window.location.href="https://xuhongyou.github.io/5.3/Home.html";}
+window.location.href = "end script3";
